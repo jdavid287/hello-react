@@ -27,7 +27,7 @@ const book = {
   title: 'A Farwell to Arms',
   author: 'Earnest Hemingway',
   published: '1929',
-  image: 'https://upload.wikimedia.org/wikipedia/en/4/48/Hemingway_farewell.png',
+  Image: 'https://upload.wikimedia.org/wikipedia/en/4/48/Hemingway_farewell.png',
   width: '264',
   height: '378'
 };
@@ -39,7 +39,7 @@ function Bookshelf() {
       <p>{book.author}</p>
       <img
         className="bookCover"
-        scr={book.image}
+        src={book.Image}
         alt={book.title + ' cover'}
         style={{
           width: book.width,
